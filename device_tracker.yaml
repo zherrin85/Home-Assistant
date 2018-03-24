@@ -1,0 +1,14 @@
+###############################################################
+# Device Tracker
+###############################################################
+#- platform: tomato
+#  host: 192.168.1.1:8080
+#  username: !secret tomato_username
+#  password: !secret tomato_password
+#  http_id: !secret tomato_http_id
+  
+#- platform: owntracks
+#  max_gps_accuracy: 200
+
+- platform: linksys_smart
+  host: 192.168.1.1

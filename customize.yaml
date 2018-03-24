@@ -1,0 +1,64 @@
+device_tracker.zhgalaxys7:
+  entity_picture: /local/zh.png
+  friendly_name: Zac
+device_tracker.544e900d872c:
+  friendly_name: Kyle
+  entity_picture: /local/kyle.png
+device_tracker.2c0e3dfe6ae1:
+  friendly_name: Cameron
+  entity_picture: /local/cameron.png
+sensor.pws_location:
+  friendly_name: Location
+  icon: mdi:home-map-marker
+sensor.pws_observation_time:
+  friendly_name: Observation Time
+  icon: mdi:av-timer
+sensor.pws_temp_f:
+  friendly_name: Temperature
+  icon: mdi:temperature-fahrenheit
+sensor.pws_relative_humidity:
+  friendly_name: Humidity
+  icon: mdi:water-percent
+sensor.pws_wind_mph:
+  friendly_name: Wind Speed
+  icon: mdi:weather-windy
+sensor.living_room_sensor_temperature:
+  friendly_name: Living Room
+  icon: mdi:television
+sensor.wink_relay_sensor_temperature:
+  friendly_name: Master Bedroom
+  icon: mdi:hotel
+switch.zachub:
+  icon: mdi:server-network
+  friendly_name: zacHUB
+sensor.zachub_glances_running:
+  friendly_name: Running Processes
+sensor.zachub_glances_thread:
+  friendly_name: Threat Count
+sensor.zachub_glances_ram_use_2:
+  friendly_name: RAM Used
+sensor.zachub_glances_disk_free:
+  friendly_name: Disk Space
+sensor.zachub_glances_disk_use_2:
+  friendly_name: Disk Used
+switch.ceiling_fan:
+  icon: mdi:fan
+  friendly_name: Bedroom Fan
+light.bedroom_light_2:
+  friendly_name: Bedroom Light
+light.bedroom_light_3:
+  friendly_name: Bedroom Light
+sensor.speedtest_ping:
+  icon: mdi:speedometer
+  friendly_name: Ping
+sensor.speedtest_download:
+  icon: mdi:download
+  friendly_name: Download
+sensor.speedtest_upload:
+  icon: mdi:upload
+  friendly_name: Upload
+group.zachub_server:
+  friendly_name: Server
+
+
+  

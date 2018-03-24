@@ -1,0 +1,30 @@
+#################################################################
+## Switches
+#################################################################
+- platform: wake_on_lan
+  mac_address: "38:d5:47:b5:83:08"
+  name: "zhdesktop"
+  host: "192.168.1.26"
+  turn_off:
+    service: shell_command.zhdesktop_off
+    
+- platform: wake_on_lan
+  mac_address: "d8:cb:8a:e5:44:97"
+  name: "zachub"
+  host: "192.168.1.180"
+  turn_off:
+    service: shell_command.zachub_off
+
+#- platform: wake_on_lan
+#  mac_address: "b8:27:eb:d9:7b:b1"
+#  name: "hassrpi3"
+#  host: "192.168.1.220"
+#  #turn_off:
+#  #  service: shell_command.hassrpi3_off
+
+#- platform: wake_on_lan
+#  mac_address: "b8:27:eb:98:57:7a"
+#  name: "camerasrpi3"
+#  host: "192.168.1.191"
+#  #turn_off:
+#  #  service: shell_command.camerasrpi3_off

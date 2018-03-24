@@ -1,0 +1,76 @@
+media_player.fire_tv:
+  name:
+  platform: plex
+  unique_id: 6420c6d76a46de61-com-plexapp-android
+media_player.shield:
+  name:
+  platform: cast
+  unique_id: 2ef82592-7b96-d23d-3844-cbb00733670a
+media_player.xbr55x850d:
+  name:
+  platform: cast
+  unique_id: 865ce09e-edf1-d833-32e8-23ea579980b7
+media_player.shield_android_tv:
+  name:
+  platform: plex
+  unique_id: 8e2b47928ece268c-com-plexapp-android
+media_player.galaxy_s7_edge:
+  name:
+  platform: plex
+  unique_id: 16e9154c302fca12-com-plexapp-android
+media_player.plex_web_chrome:
+  name:
+  platform: plex
+  unique_id: busg5vhum4i46dun2tkn7qz7
+media_player.plex_web_chrome_2:
+  name:
+  platform: plex
+  unique_id: 82jnn0qnim47p27kggujv9lm
+media_player.plex_web_chrome_3:
+  name:
+  platform: plex
+  unique_id: wksoaxigw3cmrtlvmnzwn77u
+media_player.plex_web_chrome_4:
+  name:
+  platform: plex
+  unique_id: 36omz08niesd0u0g4tvyu6ln
+media_player.plex_web_chrome_5:
+  name:
+  platform: plex
+  unique_id: pkzqphfez3qlyr5fjglqso45
+media_player.plex_web_chrome_6:
+  name:
+  platform: plex
+  unique_id: u9pzwupi2zr70x4wi0ri8hd3
+media_player.plex_web_chrome_7:
+  name:
+  platform: plex
+  unique_id: cv8cdkigsef2fxg5maead7yv
+media_player.plex_web_chrome_8:
+  name:
+  platform: plex
+  unique_id: ms4dteq7x7e7mz0vyomcvxqg
+media_player.plex_web_chrome_9:
+  name:
+  platform: plex
+  unique_id: bietznv74g8ekfbtb04bglmi
+media_player.plex_web_chrome_10:
+  name:
+  platform: plex
+  unique_id: 0aeouiva30t9ehuhewtjk38a
+media_player.plex_web_chrome_11:
+  name:
+  platform: plex
+  unique_id: cwvnahwnm361m36r2ck1i59f
+media_player.plex_web_chrome_12:
+  name:
+  platform: plex
+  unique_id: ufdb2gkvch2tioc61iprc41x
+media_player.chrome:
+  name:
+  platform: plex
+  unique_id: iywynwz16xzlw1r53b32a24p
+media_player.chrome_2:
+  name:
+  platform: plex
+  unique_id: obvvarmnhlev65gpdc50p8u1

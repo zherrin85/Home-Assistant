@@ -1,0 +1,98 @@
+###############################################################
+# Sensor
+###############################################################
+# Sonarr
+- platform: sonarr
+  api_key: !secret sonarr_api_key
+  host: 192.168.1.180
+  port: 9109
+  monitored_conditions:
+    - series
+    - upcoming
+    - wanted
+    - queue
+    - commands
+    - diskspace
+  unit: GB
+  days: 7
+
+# SABnzbd 
+- platform: sabnzbd
+  host: 192.168.1.180
+  port: 9095
+  api_key: !secret sabnzbd_api_key
+  monitored_variables:
+    - 'current_status'
+    - 'speed'
+    - 'queue_size'
+    - 'queue_remaining'
+    - 'disk_size'
+    - 'disk_free'
+
+# Radarr
+- platform: radarr
+  api_key: !secret radarr_api_key
+  host: 192.168.1.180
+  port: 9104
+  monitored_conditions:
+    - movies
+    - upcoming
+    - status
+  days: 2
+
+# wunderground.com Sensor
+- platform: wunderground
+  api_key: !secret wunderground_api_key
+  pws_id: !secret wunderground_pws_id
+  monitored_conditions:
+    - location
+    - observation_time
+    - temp_f
+    - feelslike_f
+    - wind_mph
+    - relative_humidity
+    
+# Steam
+- platform: steam_online
+  api_key: !secret steam_api_key
+  accounts:
+    - 76561198005366641
+    
+# Glances @ zacHUB
+- platform: glances
+  host: 192.168.1.180
+  port: 61208
+  name: zacHUB Glances
+  resources:
+    - 'cpu_temp'
+    - 'processor_load'
+    - 'process_running'
+    - 'process_thread'
+    - 'memory_use_percent'
+    - 'memory_free'
+    - 'disk_use_percent'
+    - 'disk_use'
+    - 'disk_free'
+    
+# Plex Sensor      
+- platform:  plex
+  host: 192.168.1.180
+  port: 32400
+  name: Plex @ zacHUB
+  username: !secret plex_username
+  password:  !secret plex_password
+
+# SSL Cert Expiry
+- platform: cert_expiry
+  host: !secret duckdns_ssl_url
+
+# Spotcrime Sensor
+- platform: spotcrime
+  name: SpotCrime
+  radius: 2
+  days: 21
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  
+# Version
+- platform: version

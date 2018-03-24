@@ -1,0 +1,22 @@
+###############################################################
+# Cameras
+###############################################################
+# Frontdoor Camera
+- platform: ffmpeg
+  input: !secret frontdoor_cam
+  name: Frontdoor
+
+# Chimney Camera
+- platform: ffmpeg
+  input: !secret chimney_cam
+  name: Chimney
+
+# Garage Camera
+- platform: ffmpeg
+  input: !secret garage_cam
+  name: Garage
+
+# Backyard Camera
+- platform: ffmpeg
+  input: !secret backyard_cam
+  name: Backyard

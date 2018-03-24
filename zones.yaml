@@ -1,0 +1,26 @@
+###############################################################
+# Zones
+###############################################################
+- name: Home
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  radius: 200
+  icon: mdi:home-variant
+  
+- name: Kitchen
+  latitude: !secret kitchen_latitude
+  longitude: !secret kitchen_longitude
+  radius: 200
+  icon: mdi:food-apple
+  
+- name: Bosco
+  latitude: !secret bosco_latitude
+  longitude: !secret bosco_longitude
+  radius: 200
+  icon: mdi:school
+  
+- name: Crean
+  latitude: !secret crean_latitude
+  longitude: !secret crean_longitude
+  radius: 200
+  icon: mdi:school

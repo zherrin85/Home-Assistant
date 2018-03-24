@@ -1,0 +1,11 @@
+/.cloud/
+secrets.yaml
+known_devices.yaml
+.spotify-token-cache
+.uuid
+home-assistant.log
+plex.conf
+sabnzbd.conf
+usps_cache.sqlite
+usps_cookies.pickle
+home-assistant_v2.db

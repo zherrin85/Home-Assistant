@@ -1,0 +1,55 @@
+homeassistant:
+  name: Home
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: 5
+  unit_system: imperial
+  time_zone: America/Los_Angeles
+  customize: !include customize.yaml
+
+frontend:
+cloud:
+config:
+updater:
+discovery:
+conversation:
+
+http:
+  api_password: !secret http_password
+  base_url: !secret duckdns_ssl_url
+  trusted_networks:
+    - 192.168.1.0/24
+
+media_player:
+  - platform: spotify
+    client_id: !secret spotify_client_id
+    client_secret: !secret spotify_client_secret
+
+wink:
+  email: !secret wink_email
+  password: !secret wink_password
+  client_id: !secret wink_client_id
+  client_secret: !secret wink_client_secret
+
+ifttt:
+  key: !secret ifttt_key
+
+#mqtt:
+#  broker: m10.cloudmqtt.com
+#  port: 18196
+#  username: homeassistant
+#  password: !secret mqtt_password
+
+usps:
+  username: !secret usps_username
+  password: !secret usps_password
+  driver: chrome
+  
+zone: !include zones.yaml
+group: !include groups.yaml
+camera: !include cameras.yaml
+sensor: !include sensor.yaml
+switch: !include switches.yaml
+device_tracker: !include device_tracker.yaml 
+weblink: !include weblinks.yaml
+shell_command: !include shell_command.yaml
