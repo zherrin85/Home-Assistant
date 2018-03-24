@@ -51,5 +51,4 @@ camera: !include cameras.yaml
 sensor: !include sensor.yaml
 switch: !include switches.yaml
 device_tracker: !include device_tracker.yaml 
-weblink: !include weblinks.yaml
 shell_command: !include shell_command.yaml
